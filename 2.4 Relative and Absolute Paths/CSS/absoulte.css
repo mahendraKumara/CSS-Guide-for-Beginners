@@ -1,0 +1,40 @@
+body {
+  background: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 4rem auto;
+}
+
+.absolute {
+  width: 65%;
+  margin: 0 auto;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: violet;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+a:active {
+  color: green;
+}
+
+figcaption {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  margin: 
+}
