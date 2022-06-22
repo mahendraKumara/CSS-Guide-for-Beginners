@@ -1,0 +1,94 @@
+/* Global Styling */
+html {
+  background-color: forestgreen;
+  color: floralwhite;
+  margin: 2rem;
+}
+
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+  color: floralwhite;
+  letter-spacing: 0.04rem;
+}
+
+section {
+  font-size: 1.3rem;
+  font-weight: 800;
+  background-color: silver;
+  width: 600px;
+  height: 200px;
+  margin: 2.8rem auto;
+  padding: 3rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+div {
+  padding: 10px;
+  width: 140px;
+  height: 80px;
+  border: 1px solid olivedrab;
+}
+
+/* --------------------------------- */
+/* --------------------------------- */
+
+.box1 {
+  background: fuchsia;
+/*   position: relative;
+  z-index: 10; */
+}
+
+/* --------------------------------- */
+
+.box2 {
+  background: tomato;
+  margin: -35px 0 0 25px;
+/*   position: relative;
+  z-index: 20; */
+}
+
+/* --------------------------------- */
+
+.floating {
+/*   display: none; */
+  text-align: right;
+  background: turquoise;
+  float: left;
+  margin: -130px 0 0 140px;
+/*   position: relative;
+  z-index: 30; */
+}
+
+/* --------------------------------- */
+
+.inner-box {
+/*   display: none; */
+  background: blueviolet;
+  padding: 8px 10px 8px 30px;
+}
+
+/* --------------------------------- */
+
+.positioned {
+/*   display: none; */
+  background: sandybrown;
+  width: 80px;
+  height: 40px;
+  position: relative;
+  left: 115px;
+  top: -120px;
+/*   z-index: 40; */
+}
+
+/* --------------------------------- */
+/* --------------------------------- */
+
+.hint {
+  text-align: right;
+  margin-bottom: 0;
+}
+
