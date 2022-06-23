@@ -1,0 +1,67 @@
+/* Global Styles */
+html {
+  background-color: mediumaquamarine;
+  margin: 2rem;
+}
+
+h1 {
+  font-family: fantasy;
+  font-weight: 100;
+  text-align: center;
+  color: lightslategrey;
+  letter-spacing: 0.1rem;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 1.06rem;
+  color: darkslategrey;
+  margin: 4rem 1rem -1rem;
+}
+
+section {
+  font-size: 20px;
+  background-color: darkmagenta;
+  margin: 40px;
+  padding: 15px;
+  border: 1px solid plum;
+}
+
+div {
+  background-color: tomato;
+  color: whitesmoke;
+  margin: 18px;
+  padding: 6px 8px;
+  border: 1px solid plum;
+}
+
+
+/* -------------------------------- */
+/* Flexible Layout Styles */
+/* -------------------------------- */
+
+.parent-element {
+  display: flex;
+}
+
+/* Try uncommenting the below declarations one by one to see how flex property works */
+.child {
+  flex: 1 0 100px;
+  flex: 0 1 100px;
+  flex: 1 1 100px;
+}
+
+
+/* Appling individual flex properties for specific child elements */
+.first.child {
+  background-color: limegreen;
+  flex: 0 0 80px;
+}
+
+.third.child {
+  background-color: greenyellow;
+  flex: 0 0 130px;
+}
+
+/* -------------------------------- */
+/* -------------------------------- */
