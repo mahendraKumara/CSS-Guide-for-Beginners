@@ -1,0 +1,26 @@
+/* Scroll to the bottom to see simple styling */
+html {
+  margin: 2rem;
+  background-color: lightgrey;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  padding: 2rem 4rem;
+  border: 1px solid lightblue;
+}
+
+/* Above styles are just to make the view better, if you don't know about this just try commenting out the above declaration blocks to see how it affects the view of the page. */
+
+/* -------------------------------- */
+
+h2  {
+  color: green;
+  text-decoration: underline;
+}
+
+/* -------------------------------- */
