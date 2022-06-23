@@ -1,0 +1,39 @@
+/* -------------------------------- */
+
+* {
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: purple;
+  background-color: black;
+  margin: 2rem 0;
+}
+
+/* -------------------------------- */
+
+/* Below styles are just to make the view better, if you don't know about this just try commenting out the below declaration blocks to see how it affects the view of the page. */
+
+html {
+  margin: 2rem;
+}
+
+body {
+  margin: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+
+section {
+  padding: 1rem 2rem;
+  border: 1px solid violet;
+}
+
+span {
+  color: rgba(238, 130, 238, 0.7);
+}
+
+
+
