@@ -1,0 +1,67 @@
+/* Global Styling */
+html {
+  margin: 2rem;
+  background-color: cornflowerblue;
+  color: darkblue;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: whitesmoke;
+  text-align: center;
+}
+
+section {
+  background-color: aliceblue;
+  height: 25rem;
+  margin: 3rem 2rem;
+}
+
+h2 {
+  color: forestgreen;
+  padding: 2rem 2rem 1rem;
+}
+
+p {
+  font-size: 1.3rem;
+  color: lightslategray;
+  float: left;
+}
+
+div {
+  background-color: lavender;
+  margin: 2rem;
+  padding: 10px;
+  border: 1px solid darkblue;
+}
+
+/* --------------------------------- */
+/* --------------------------------- */
+
+.container1{
+  height: 100px;
+/*   overflow: hidden; */
+  overflow: auto;
+/*   overflow: scroll; */
+}
+/* Try Uncommenting the above properties to see how it works */
+
+
+/* --------------------------------- */
+
+/* --------------------------------- */
+
+/* Clearfix hack */
+.container2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* --------------------------------- */
+
+/* --------------------------------- */
+.container3 {
+  display: flow-root;
+}
