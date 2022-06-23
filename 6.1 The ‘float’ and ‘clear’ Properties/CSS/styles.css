@@ -1,0 +1,52 @@
+/* ------------------------------- */
+img {
+  float: left;
+/*   float: right; */
+  width: 15rem;
+  margin: 15px;
+}
+
+p {
+  font-size: 1.46rem;
+  color: silver;
+/*   clear: left; */
+}
+
+.para2 {
+  clear: left;
+/*   clear: right; */
+/*   clear: both; */
+}
+/* ------------------------------- */
+
+html {
+  margin: 2rem;
+  background-color: dimgray;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: silver;
+  text-align: center;
+}
+
+span {
+  color: springgreen;
+  padding: 0 1rem;
+  border-left: 1px solid springgreen;
+  border-right: 1px solid springgreen;
+  border-bottom-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+p span {
+  color: palegreen;
+}
+
+section {
+  margin: 4rem;
+  padding: 10px;
+  border: 1px solid silver;
+}
