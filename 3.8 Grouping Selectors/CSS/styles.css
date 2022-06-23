@@ -1,0 +1,29 @@
+html {
+  margin: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  width: fit-content;
+  text-decoration: underline;
+}
+/* -------------------------------- */
+
+/* Mixing different selectors into a declaration block */
+.first, p {
+  font-size: 18px;
+  color: maroon;
+  margin: 2rem;
+}
+
+/* Mixing descendent selectors with other selectors into a declaration block */
+h1, section h2 {
+  background-color: pink;
+  color: purple;
+  padding: 0.3rem;
+}
+
+/* -------------------------------- */
