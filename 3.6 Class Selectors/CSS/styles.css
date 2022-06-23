@@ -1,0 +1,45 @@
+html {
+  margin: 2rem;
+  background-color: seashell;
+}
+
+/* Styling for the background color and spacing (margin) around elements */
+.content {
+  background-color: rgba(188, 143, 143, 0.4);
+  margin: 2rem 0;
+}
+
+/* Styling for the Main Heading ------------*/
+.heading {
+  font-size: 1.8rem;
+  text-align: center;
+  background-color: rebeccapurple;
+  color: turquoise;
+  padding: 0.3rem 0;
+}
+/*---------------------------------------*/
+
+/* This styling applies to all classes with these names --------------------------------*/
+.innercontent {
+  color: midnightblue;
+  padding: 1rem;
+}
+
+.para {
+  padding-top: 0;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+}
+/*---------------------------------------*/
+
+/* This styling applies when a element has both the class names */
+.innercontent.head {
+  text-decoration: underline;
+}
+
+/* An Element can have multiple class name and it can also be used to add special styling */
+.innercontent.para.newclass {
+  font-size: 20px;
+  color: firebrick;
+}
