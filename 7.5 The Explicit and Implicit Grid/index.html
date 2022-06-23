@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <title>CSS Grid | Explicit and Implicit</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+
+    <h1>Example for Explicit and Implicit Grid</h1>
+
+    <h2>Explicit Grid</h2>
+
+
+    <!-- Model-1 -->
+    <section>
+        <div class="container1">
+            <div class="child">item-1</div>
+            <div class="child">item-2</div>
+            <div class="child">item-3</div>
+            <div class="child">item-4</div>
+        </div>
+        <div class="code1">
+            .container {
+            <span>&emsp;grid-template-columns: 100px 100px 100px;</span>
+            <span>&emsp;grid-template-rows: 100px 100px;</span>
+            }
+        </div>
+    </section>
+
+
+    <!-- Model-2 -->
+    <section>
+        <div class="container2">
+            <div class="child">item-1</div>
+            <div class="child">item-2</div>
+            <div class="child">item-3</div>
+            <div class="child">item-4</div>
+        </div>
+        <div class="code2">
+            .container {
+            <span>&emsp;grid-template-columns: 1fr 1fr 1fr;</span>
+            <span>&emsp;grid-template-rows: 1fr 1fr;</span>
+            }
+        </div>
+    </section>
+
+
+    <!-- Model-3 -->
+    <section class="third">
+        <div class="container3">
+            <div class="child">item-1</div>
+            <div class="child">item-2</div>
+            <div class="child">item-3</div>
+            <div class="child">item-4</div>
+        </div>
+        <div class="code3">
+            .container {
+            <span>&emsp;grid-template-columns: 1fr 2fr 1fr;</span>
+            <span>&emsp;grid-template-rows: 2fr 1fr;</span>
+            }
+        </div>
+    </section>
+
+
+    <!-- Model-4 -->
+    <section class="fourth">
+        <div class="container4">
+            <div class="child">item-1</div>
+            <div class="child">item-2</div>
+            <div class="child">item-3</div>
+            <div class="child">item-4</div>
+            <div class="child">item-5</div>
+        </div>
+        <div class="code4">
+            .container {
+            <span>&emsp;grid-template-columns: repeat(2, 1fr);</span>
+            <span>&emsp;grid-template-rows: 60px repeat(2, 1fr);</span>
+            }
+        </div>
+    </section>
+
+
+    <!-- Model-5 -->
+    <section class="fifth">
+        <div class="container5">
+            <div class="child">item-1</div>
+            <div class="child">item-2</div>
+            <div class="child">item-3</div>
+            <div class="child">item-4</div>
+        </div>
+        <div class="code5">
+            .container {
+            <span>&emsp;grid-template-columns: repeat(2, 1fr);</span>
+            <span>&emsp;grid-template-rows: 60px repeat(2, 1fr);</span>
+            <span>&emsp;gap: 30px 20px;</span>
+            }
+        </div>
+    </section>
+
+
+
+    <h2>Implicit Grid</h2>
+
+
+    <section class="implicit">
+        <div class="container">
+            <div class="child">item-1</div>
+            <div class="child">item-2</div>
+            <div class="child">item-3</div>
+            <div class="child">item-4</div>
+            <div class="child">item-5</div>
+        </div>
+        <div class="code">
+            .container {
+            <span>&emsp;grid-template-columns: 120px repeat(2, 1fr);</span>
+            <span>&emsp;grid-template-rows: 100px;</span>
+            <span>&emsp;grid-auto-rows: 140px;</span>
+            }
+        </div>
+    </section>
+
+</body>
+
+
+</html>
