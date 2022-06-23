@@ -1,0 +1,111 @@
+/* Global Styles */
+html {
+  background-color: darkolivegreen;
+  margin: 2rem;
+}
+
+h1 {
+  font-family: Helvetica, Calibri, sans-serif;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: monospace;
+  color: lightcyan;
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 1px solid white;
+}
+
+section {
+  font-size: 20px;
+  background-color: sandybrown;
+  height: 250px;
+  margin: 40px;
+  padding: 15px;
+}
+
+.child {
+  text-align: center;
+  background-color: lightcyan;
+  margin: 1px;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.code-sample,
+.code-sample2 {
+  font-size: 1rem;
+  background-color: lightsalmon;
+  color: lightcyan;
+  width: 310px;
+  padding: 1rem;
+  border: 1px ridge darkorange;
+  position: relative;
+  bottom: 160px;
+  left: 380px;
+}
+
+.code-sample span,
+.code-sample2 span {
+  display: block;
+  margin: 1rem 0;
+}
+
+/* ----------------------------- */
+/* Grid Placement Properties */
+/* ----------------------------- */
+
+.grid-placement {
+  height: 700px;  
+}
+
+.grid-placement .placement-container  {
+  display:  grid;
+  grid-template-columns: 120px repeat(2, 1fr);
+  grid-template-rows: 100px;
+  grid-auto-rows: 140px;
+}
+
+
+.child.three {
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+
+.child.four {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.child.five {
+  grid-column: 4/5;
+  grid-row: 1/4
+}
+
+.child.six {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.grid-placement .code-sample {
+  top: 30px;
+  left: 20px;
+}
+
+.grid-placement .code-sample2 {
+  bottom: 160px;
+  left: 390px;
+}
+
+/* NOTE: grid-auto-columns will only works where there is alignment properties are used */
+.grid-placement .placement-container  {
+  grid-auto-columns: 120px;
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
