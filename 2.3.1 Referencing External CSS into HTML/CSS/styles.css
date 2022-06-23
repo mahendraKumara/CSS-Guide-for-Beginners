@@ -1,0 +1,37 @@
+body {
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a .brown:hover {
+    text-decoration: underline;
+}
+
+.button {
+    text-decoration: underline;
+    color: rgba(0, 70, 0, 0.8);
+}
+
+.button:hover {
+    color: blue;
+}
+
+.violet {
+    font-weight: 500;
+    color: violet;
+}
+
+.brown {
+    color: rgb(245, 86, 86);
+}
+
+.orange {
+    color: orange;
+}
+
+.blue {
+    color: rgb(117, 18, 209);
+}
