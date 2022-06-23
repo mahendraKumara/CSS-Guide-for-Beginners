@@ -1,0 +1,10 @@
+/* This style belongs to sub heading: 1 */
+h3{font-size:20px;color:purple;font-style:italic;text-decoration:underline;}
+
+/* This style belongs to sub heading: 2 */
+h4 {
+  font-size: 20px;
+  color: purple;
+  font-style: italic;
+  text-decoration: underline;
+}
