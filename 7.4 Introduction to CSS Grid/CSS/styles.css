@@ -1,0 +1,46 @@
+/* Global Styles */
+html {
+  background-color: black;
+  margin: 2rem;
+}
+
+h1 {
+  font-family: fantasy;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+}
+
+section {
+  font-size: 20px;
+  background: lightslategray;
+  margin: 40px;
+  padding: 15px;
+}
+
+div {
+  background: lightcyan;
+  margin: 18px;
+  padding: 4px;
+}
+
+h2 {
+  color: white;
+  width: fit-content;
+  border-bottom: 4px solid silver;
+}
+
+/* -------------------------------- */
+/* Flexible Layout Styles */
+/* -------------------------------- */
+
+.grid-container1 {
+  display: grid;
+}
+
+.grid-container2 {
+  display: inline-grid;
+}
+
+/* -------------------------------- */
+/* -------------------------------- */
