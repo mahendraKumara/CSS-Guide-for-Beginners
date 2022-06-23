@@ -1,0 +1,48 @@
+html {
+  margin: 2rem;
+  background-color: darkslateblue;
+}
+
+section {
+  font-family: monospace;
+  font-size: 0.8rem;
+  margin: 3rem 0;
+  padding: 1rem;
+}
+
+/* Example for styling with ID Selectors */
+
+#mainheading {
+  text-align: center;
+  color: white;
+}
+
+#first-content {
+  background-color: lightseagreen;
+}
+
+#second-content {
+  background-color: aquamarine;
+}
+
+#third-content {
+  background-color: darkturquoise;
+}
+
+#fourth-content {
+  background-color: aqua;
+}
+
+#fifth-content {
+  background-color: turquoise;
+}
+
+/* Styling for the back to heading button */
+a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: greenyellow;
+  color: black;
+  padding: 10px 10px;
+}
