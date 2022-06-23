@@ -1,0 +1,9 @@
+.button {
+    text-decoration: underline;
+    color: rgb(97, 235, 97);
+    /* color: rgba(0, 70, 0, 0.8); */
+}
+
+.button:hover {
+    text-decoration: none;
+}
