@@ -1,0 +1,162 @@
+html {
+  background-color: darkslategray;
+  margin: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: lavender;
+  margin: 0;
+}
+
+.container {
+  width: 600px;
+  height: 350px;
+  margin: 4rem auto;
+  background-color: silver;
+  background-image: url("https://raw.githubusercontent.com/mahendraKumara/CSS-Guide-for-Beginners/main/Images/dolphins.jpg");
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: lavender;
+  margin: 3rem 1rem 2rem;
+}
+
+div {
+  font-family: monospace;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: snow;
+  text-align: right;
+}
+/* -------------------------------- */
+/* "background-repeat" property  */
+/* -------------------------------- */
+
+.container1 {
+  display: flex;
+}
+
+.container1 div {
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: silver;
+  background-image: url("https://raw.githubusercontent.com/mahendraKumara/CSS-Guide-for-Beginners/main/Images/dolphins.jpg");
+}
+
+.container1 div.left {
+  background-size: 100%;
+}
+
+.container1 div.right {
+  background-size: 100% 100%;
+}
+
+.container1 div.center {
+  background-size: cover;
+}
+
+/* -------------------------------- */
+
+
+/* -------------------------------- */
+/* "background-size" property */
+/* -------------------------------- */
+
+.container2 {
+  display: flex;
+}
+
+.container2 div {
+  width: 350px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: silver;
+  background-image: url("https://raw.githubusercontent.com/mahendraKumara/CSS-Guide-for-Beginners/main/Images/dolphins.jpg");
+  background-size: 100%;
+}
+
+.container2 div.left {
+  background-repeat: no-repeat;
+}
+
+.container2 div.right {
+  background-repeat: repeat;
+}
+
+/* -------------------------------- */
+
+
+/* -------------------------------- */
+/* "background-position" property*/
+/* -------------------------------- */
+
+.container3 {
+  margin: 0 2rem;
+  display: grid;
+  grid-template-columns: 260px 260px 260px;
+  grid-template-rows: 1fr;
+  grid-auto-rows: 210px;
+}
+
+.container3 div {
+  width: 250px;
+  height: 200px;
+  border: 2px solid lightcyan;
+  background-color: silver;
+  background-image: url("https://raw.githubusercontent.com/mahendraKumara/CSS-Guide-for-Beginners/main/Images/dolphins.jpg");
+  background-repeat: no-repeat;
+}
+
+/* Row-1 */
+.container3 div.first-left {
+  width: 350px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  border: none;
+  background-position: 60px 80px;
+  grid-column: 1/4;
+}
+
+/* Row-2 */
+.container3 div.top-left {
+  background-position: top left;
+}
+
+.container3 div.top-center {
+  background-position: top center;
+}
+
+.container3 div.top-right {
+  background-position: top right;
+}
+
+/* Row-3 */
+.container3 div.center-left {
+  background-position: left center;
+}
+
+.container3 div.center {
+  background-position: center;
+}
+
+.container3 div.center-right {
+  background-position: right center;
+}
+
+/* Row-4 */
+.container3 div.bottom-left {
+  background-position: bottom left;
+}
+
+.container3 div.bottom-center {
+  background-position: bottom center;
+}
+
+.container3 div.bottom-right {
+  background-position: bottom right;
+}
