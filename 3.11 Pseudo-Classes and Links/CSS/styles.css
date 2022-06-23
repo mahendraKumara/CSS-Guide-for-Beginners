@@ -1,0 +1,103 @@
+/* --------------------------------- */
+/* :link & :visited only works with anchor tag with href attribute */
+
+a.first:link {
+  color: lightgreen;
+}
+
+a.first:visited {
+/*   color: darkgreen; */
+  color: rosybrown;
+}
+
+/* --------------------------------- */
+
+.with-href .unvisited {
+  color: lightgreen;
+}
+
+.with-href .visited {
+  color: rosybrown;
+}
+/* --------------------------------- */
+
+/* :focus, :hover & :active works with all the html elements */
+.second {
+  color: darkgreen;
+}
+
+.second:focus {
+  outline-color: goldenrod;
+}
+
+.second:hover {
+  color: yellowgreen;
+  text-decoration: line-through;
+}
+
+.second:active {
+  color: mediumvioletred;
+}
+/* --------------------------------- */
+.without-href .idle {
+  color: darkgreen;
+}
+
+.without-href .focused {
+  color: goldenrod;
+}
+
+.without-href .hovering {
+  color: yellowgreen;
+}
+
+.without-href .clicked {
+  color: mediumvioletred;
+}
+/* --------------------------------- */
+
+
+html, body {
+  background-color: darkkhaki;
+  margin: 2rem;
+  margin-top: 0;
+}
+
+.heading {
+  width: fit-content;
+  background-color: cornsilk;
+  color: brown;
+  margin: 0 auto;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+section {
+  background-color: cornsilk;
+  margin: 3.5rem 7rem;
+}
+
+h2 {
+  color: chocolate;
+  margin: 0;
+  padding: 1rem;
+}
+
+ul {
+  margin: 0.5rem 2rem;
+}
+
+ul li {
+  margin: 0.5rem;
+}
+ 
+ul span {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+p {
+  padding: 0 6rem;
+  padding-bottom: 1rem;
+}
