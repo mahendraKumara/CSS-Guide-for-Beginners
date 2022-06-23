@@ -1,0 +1,180 @@
+/* Global Styles */
+html {
+  background-color: navy;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*  This whole page is an example of centering in both x & y axis  */
+}
+
+h1 {
+  color: silver;
+  text-align: center;
+}
+
+h2 {
+  margin: 1rem 0rem 2rem;
+}
+
+div {
+  border: 1px solid indigo;
+}
+
+.values {
+  color: mediumblue;
+}
+
+.container {
+  background-color: silver;
+  margin: 3rem 1rem;
+  padding: 1.2rem;
+}
+
+/* ---------------------------------
+CSS Property: justify-content 
+-----------------------------------*/
+
+/* --- justify-content: start ---- */
+
+.justify-start {
+  display: flex;
+  justify-content: start;
+}
+
+.justify-start span {
+  display: inline-block;
+  background-color: orchid;
+  margin: 0 1px;
+  padding: 1rem;
+  border: 1px solid white;
+}
+
+/* -------------------------------- */
+
+/* --- justify-content: space-between ---- */
+
+.justify-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.justify-space-between span {
+  display: inline-block;
+  background-color: palevioletred;
+  margin: 0 1px;
+  padding: 1rem;
+  border: 1px solid white;
+}
+
+/* -------------------------------- */
+
+/* --- justify-content: space-around ---- */
+
+.justify-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.justify-space-around span {
+  display: inline-block;
+  background-color: mediumorchid;
+  margin: 0 1px;
+  padding: 1rem;
+  border: 1px solid white;
+}
+
+/* -------------------------------- */
+
+/* --- justify-content: space-evenly ---- */
+
+.justify-space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.justify-space-evenly span {
+  display: inline-block;
+  background-color: mediumvioletred;
+  margin: 0 1px;
+  padding: 1rem;
+  border: 1px solid white;
+}
+
+/* -------------------------------- */
+
+/* ---------------------------------
+CSS Property: align-items 
+-----------------------------------*/
+
+/* --- align-items: start ---- */
+
+.align-start {
+  height: 160px;  
+  display: flex;
+  align-items: start;
+}
+
+.align-start span {
+  display: inline-block;
+  background-color: orchid;
+  margin: 0 1px;
+  padding: 1rem;
+  border: 1px solid white;
+}
+
+/* -------------------------------- */
+
+/* --- align-items: end ---- */
+
+.align-end {
+  height: 160px;  
+  display: flex;
+  align-items: end;
+}
+
+.align-end span {
+  display: inline-block;
+  background-color: palevioletred;
+  margin: 0 1px;
+  padding: 1rem;
+  border: 1px solid white;
+}
+
+/* -------------------------------- */
+
+/* --- align-items: center ---- */
+
+.align-center {
+  height: 160px;  
+  display: flex;
+  align-items: center;
+}
+
+.align-center span {
+  display: inline-block;
+  background-color: mediumorchid;
+  margin: 0 1px;
+  padding: 1rem;
+  border: 1px solid white;
+}
+
+/* -------------------------------- */
+
+/* --- align-items: stretch ---- */
+
+.align-stretch {
+  height: 160px;  
+  display: flex;
+  align-items: stretch;
+}
+
+.align-stretch span {
+  display: inline-block;
+  background-color: mediumorchid;
+  margin: 0 1px;
+  padding: 1rem;
+  border: 1px solid white;
+}
+
+/* -------------------------------- */
