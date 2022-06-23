@@ -1,0 +1,46 @@
+html {
+  background-color: darkcyan;
+  margin: 2rem;
+}
+
+body {
+  font-size: 18px;
+  background-color: bisque;
+  padding: 1rem;
+}
+
+section {
+  margin: 2rem;
+  line-height: 1.4rem;
+}
+
+/* --------------------------------- */
+/* This style applies to the 'h2', which is wrapped by the exact order. */
+header h2 {
+  font-size: 28px;
+  color:  darkgreen;
+  text-align: center;
+  margin: 2rem;
+}
+
+section p {
+  margin: 2rem 1rem;
+  padding: 1rem;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 1rem;
+}
+
+/* This style applies to the 'a' tag, which is wrapped by the exact order. */
+section p a {
+  text-decoration: none;
+  color: crimson;
+}
+
+/* A descendent element styled direcly with combining different selectors */
+.container span {
+  color: darkcyan;
+  text-decoration: line-through;
+  text-decoration-color: mediumvioletred;
+}
+/* --------------------------------- */
