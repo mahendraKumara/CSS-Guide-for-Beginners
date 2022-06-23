@@ -1,0 +1,50 @@
+/* ---------------------------------- */
+
+b {
+  color: brown;
+  font-family: 'Roboto', monospace;
+  font-size: 1.7rem;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 4rem;
+  width: fit-content;
+  margin: 7rem auto;
+}
+
+/* ---------------------------------- */
+
+html {
+  background-color: darksalmon;
+  margin: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: lavender;
+  text-align: center;
+}
+
+section {
+  background-color: lavender;
+  margin: 4rem 4rem 0;
+  padding: 0.2rem 0;
+  border-radius: 1.5rem;
+}
+
+.first, .fourth {
+  color: #3F85F3;
+}
+
+.second, .last {
+  color: #EB4132;
+}
+
+.third {
+  color: #FBBD01;  
+}
+
+.fifth {
+  color: #31AA52;
+}
