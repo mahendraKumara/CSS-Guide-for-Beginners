@@ -1,0 +1,164 @@
+/* Global Styles */
+html {
+  background-color: darkolivegreen;
+  margin: 2rem;
+}
+
+h1 {
+  font-family: Helvetica, Calibri, sans-serif;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: monospace;
+  color: lightcyan;
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 1px solid white;
+}
+
+section {
+  font-size: 20px;
+  background-color: sandybrown;
+  height: 250px;
+  margin: 40px;
+  padding: 15px;
+}
+
+.child {
+  text-align: center;
+  background-color: lightcyan;
+  margin: 1px;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.code1,
+.code2,
+.code3,
+.code4,
+.code5,
+.code {
+  font-size: 1rem;
+  background-color: lightsalmon;
+  color: lightcyan;
+  width: 310px;
+  padding: 1rem;
+  border: 1px ridge darkorange;
+  position: relative;
+  bottom: 160px;
+  left: 380px;
+}
+
+.code1 span,
+.code2 span,
+.code3 span,
+.code4 span,
+.code5 span,
+.code span {
+  display: block;
+  margin: 1rem 0;
+}
+/* ----------------------------- */
+/* Explicit Grid */
+/* ----------------------------- */
+
+.container1  {
+  display:  grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px;
+}
+/* ----------------------------- */
+
+.container2  {
+  display:  grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.code2 {
+  top: 10px;
+  left: 380px;
+}
+/* ----------------------------- */
+
+section.third {
+  height: 280px;  
+}
+
+.container3  {
+  display:  grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 2fr 1fr;
+}
+
+.code3 {
+  top: 10px;
+  left: 380px;
+}
+/* ----------------------------- */
+
+section.fourth {
+  height: 300px;  
+}
+
+.container4  {
+  display:  grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 60px repeat(2, 1fr);
+}
+
+.code4 {
+  top: 10px;
+  left: 380px;
+}
+/* ----------------------------- */
+
+section.fifth {
+  height: 300px;  
+}
+
+.fifth .child {
+  margin: 0;
+}
+
+.container5  {
+  display:  grid;
+  grid-template-columns: 200px 150px;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px 20px;
+}
+
+.code5 {
+  top: 10px;
+  left: 380px;
+}
+/* ----------------------------- */
+/* ----------------------------- */
+
+
+/* ----------------------------- */
+/* Implicit Grid */
+/* ----------------------------- */
+
+.implicit {
+  height: 500px;  
+}
+
+.implicit .container  {
+  display:  grid;
+  grid-template-columns: 120px repeat(2, 1fr);
+  grid-template-rows: 100px;
+  grid-auto-rows: 140px;
+/*   grid-auto-columns: 100px; */
+}
+
+.implicit .code {
+  top: 30px;
+  left: 380px;
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
